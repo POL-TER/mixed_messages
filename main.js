@@ -1,21 +1,74 @@
-const messages = [];
-
-const msgSkeletons = [];
 /*
 
 Quote Mad Libs
 
-"When you reach the end of your rope, tie a knot in it and hang on." -Franklin D. Roosevelt
-"Spread love everywhere you go. Let no one ever come to you without leaving happier." -Mother Teresa
-"Don't judge each day by the harvest you reap but by the seeds that you plant." -Robert Louis Stevenson
-"Tell me and I forget. Teach me and I remember. Involve me and I learn." -Benjamin Franklin
-"The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart." -Helen Keller
-"It is during our darkest moments that we must focus to see the light." -Aristotle
-"Do not go where the path may lead, go instead where there is no path and leave a trail." -Ralph Waldo Emerson
-"The greatest glory in living lies not in never falling, but in rising every time we fall." -Nelson Mandela 
-"Many of life's failures are people who did not realize how close they were to success when they gave up." -Thomas A. Edison
-"You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose." -Dr. Seuss
-"Mother. I crave violence. -Cats"
-"The only impossible journey is the one you never begin." -Tony Robbins
-Give a man a fish, and you feed him for a day. Teach a man to fish, and you feed him for a lifetime. -Lao-Tzu, Anne Isabella Thackeray Ritchie, maybe someone else... pronbably
+01  "When you reach the end of your rope, tie a knot in it and hang on."                                                  Author: Franklin D. Roosevelt
+02  "Spread love everywhere you go. Let no one ever come to you without leaving happier."                                 Author: Mother Teresa
+03  "Don't judge each day by the harvest you reap but by the seeds that you plant."                                       Author: Robert Louis Stevenson
+04  "Tell me and I forget. Teach me and I remember. Involve me and I learn."                                              Author: Benjamin Franklin
+05  "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart."  Author: Helen Keller
+06  "It is during our darkest moments that we must focus to see the light."                                               Author: Aristotle
+07  "Do not go where the path may lead, go instead where there is no path and leave a trail."                             Author: Ralph Waldo Emerson
+08  "The greatest glory in living lies not in never falling, but in rising every time we fall."                           Author: Nelson Mandela 
+09  "Many of life's failures are people who did not realize how close they were to success when they gave up."            Author: Thomas A. Edison
+10  "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose."         Author: Dr. Seuss
+11  "Mother. I crave violence."                                                                                           Author: Cats
+12  "The only impossible journey is the one you never begin."                                                             Author: Tony Robbins
+13  Give a man a fish, and you feed him for a day. Teach a man to fish, and you feed him for a lifetime.                  Author: Lao-Tzu, Anne Isabella Thackeray Ritchie, maybe someone else... pronbably
+
 */
+
+const msgSkeletons = {
+	skel01 : {
+		msg  : [ 'When you reach the end of your ', ', tie a knot in it and ', ' on.' ],
+		auth : 'Franklin D. Roosevelt',
+	},
+	skel02 : {
+		msg  : [ 'Spread ', ' everywhere you go. Let no one ever ', ' to you without leaving happier.' ],
+		auth : 'Mother Teresa',
+	},
+	skel03 : {
+		msg  : [ 'Do not judge each ', ' by the harvest you ', ', but by the seeds that you plant.' ],
+		auth : 'Robert Louis Stevenson',
+	},
+	skel04 : {
+		msg  : [ 'Tell me and ', ' forget. Teach me and I remember. ', ' me and I learn.' ],
+		auth : 'Benjamin Franklin',
+	},
+	skel05 : {
+		msg  : [ '' ],
+		auth : 'Helen Keller',
+	},
+	skel06 : {
+		msg  : [ '' ],
+		auth : 'Aristotle',
+	},
+	skel07 : {
+		msg  : [ '' ],
+		auth : 'Ralph Waldo Emerson',
+	},
+	skel08 : {
+		msg  : [ '' ],
+		auth : 'Nelson Mandela',
+	},
+	skel09 : {
+		msg  : [ '' ],
+		auth : 'Thomas A. Edison',
+	},
+	skel10 : {
+		msg  : [ '' ],
+		auth : 'Dr. Seuss',
+	},
+	skel11 : {
+		msg  : [ '' ],
+		auth : 'Cats',
+	},
+	skel12 : {
+		msg  : [ '' ],
+		auth : 'Tony Robbins',
+	},
+	skel13 : {
+		msg  : [ 'Give a man a ', ', and you feed him for a day. Teach a man to fish, and you ', ' him for a lifetime.' ],
+		auth : 'Lao-Tzu, Anne Isabella Thackeray Ritchie, maybe someone else...',
+	},
+};
