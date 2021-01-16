@@ -36,35 +36,35 @@ const msgSkeletons = {
 		auth : 'Benjamin Franklin',
 	},
 	skel05 : {
-		msg  : [ '' ],
+		msg  : [ 'The best and most beautiful ', ' in the world cannot be seen or even ', ' - they must be felt with the heart.' ],
 		auth : 'Helen Keller',
 	},
 	skel06 : {
-		msg  : [ '' ],
+		msg  : [ 'It is during our darkest ', ' that we must focus to ', ' the light.' ],
 		auth : 'Aristotle',
 	},
 	skel07 : {
-		msg  : [ '' ],
+		msg  : [ 'Do not go where the ', ' may lead, go instead where there is no path and ', ' a trail.' ],
 		auth : 'Ralph Waldo Emerson',
 	},
 	skel08 : {
-		msg  : [ '' ],
+		msg  : [ 'The greatest ', ' in living ', ' not in never falling, but in rising every time we fall.' ],
 		auth : 'Nelson Mandela',
 	},
 	skel09 : {
-		msg  : [ '' ],
+		msg  : [ "Many of life's failures are ', ' who did not ', ' how close they were to success when they gave up." ],
 		auth : 'Thomas A. Edison',
 	},
 	skel10 : {
-		msg  : [ '' ],
+		msg  : [ 'You have ', ' in your head. You have feet in your shoes. You can ', ' yourself any direction you choose.' ],
 		auth : 'Dr. Seuss',
 	},
 	skel11 : {
-		msg  : [ '' ],
+		msg  : [ 'Mother. I ', ' ', '.' ],
 		auth : 'Cats',
 	},
 	skel12 : {
-		msg  : [ '' ],
+		msg  : [ 'The only impossible ', ' is the one you never ', '.' ],
 		auth : 'Tony Robbins',
 	},
 	skel13 : {
