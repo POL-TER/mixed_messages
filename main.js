@@ -179,3 +179,10 @@ const collVerb = [
 	'contain',
 	'seize',
 ];
+
+const randProp = (obj) => {
+	let keySelect = Object.keys(obj);
+	let key = obj[keySelect[(keySelect.length * Math.random()) << 0]];
+
+	return key;
+};
