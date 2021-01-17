@@ -73,7 +73,7 @@ const msgSkeletons = {
 	},
 };
 
-// Courtesy of https://randomwordgenerator.com/
+// Source - https://randomwordgenerator.com/
 const collNoun = [
 	'housing',
 	'thing',
@@ -186,3 +186,13 @@ const randProp = (obj) => {
 
 	return key;
 };
+
+const msgGenerator = (obj) => {
+	let randNoun = collNoun[(collNoun.length * Math.random()) << 0];
+	let randVerb = collVerb[(collVerb.length * Math.random()) << 0];
+	let key = randProp(obj);
+
+	return `${key['msg'][0]}${randNoun}${key['msg'][1]}${randVerb}${key['msg'][2]} -${key['auth']}, probably.`;
+};
+
+console.log(msgGenerator(msgSkeletons));
