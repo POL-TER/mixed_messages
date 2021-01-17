@@ -31,3 +31,8 @@ For this project, you will build a message generator program. Every time a user 
 6. Create the message
 7. Put the program together
 8. Next Steps...
+
+##### Planned Changes
+
+- [ ] Consideration for complex messages
+- [ ] Change to capital or lowercase strings based on preceding/following character
